@@ -137,6 +137,7 @@ class PaymentOutWindow(QWidget):
 
 
 if __name__ == "__main__":
+
     app = QApplication([])
     window_1 = MainWindow()
     window_1.show()

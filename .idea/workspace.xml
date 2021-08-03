@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b2f054-1851-4d0c-9a3e-b2aceffeae0f" name="Default Changelist" comment="" />
+    <list default="true" id="e8b2f054-1851-4d0c-9a3e-b2aceffeae0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddClientWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddClientWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddExpenseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddExpenseWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddNewItemWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddNewItemWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddSupplierWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddSupplierWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DefectiveItemsWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DefectiveItemsWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditItemWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/EditItemWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvoiceWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/InvoiceWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewCategoryWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewCategoryWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewPurchaseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewPurchaseWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewTypeWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewTypeWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentInWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentInWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PaymentOutWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentOutWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PurchaseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuotationWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/QuotationWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetReminderWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/SetReminderWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/StockWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rsVJ0X0rKk40H5MabNLDOjFRFS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -25,7 +51,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../practiceqt" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="MainWindow" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -64,50 +91,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="389" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1627968027321">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1627968027321" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1620554753733">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620554753733" />
-    <state width="1259" height="124" key="GridCell.Tab.0.bottom" timestamp="1627798937039">
+    <state width="1259" height="124" key="GridCell.Tab.0.bottom" timestamp="1627968232587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627798937039" />
-    <state width="1259" height="124" key="GridCell.Tab.0.center" timestamp="1627798937039">
+    <state width="1259" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
+    <state width="1259" height="124" key="GridCell.Tab.0.center" timestamp="1627968232587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627798937039" />
-    <state width="1259" height="124" key="GridCell.Tab.0.left" timestamp="1627798937039">
+    <state width="1259" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
+    <state width="1259" height="124" key="GridCell.Tab.0.left" timestamp="1627968232587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627798937039" />
-    <state width="1259" height="124" key="GridCell.Tab.0.right" timestamp="1627798937039">
+    <state width="1259" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
+    <state width="1259" height="124" key="GridCell.Tab.0.right" timestamp="1627968232587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627798937039" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1627798173164">
+    <state width="1259" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627798173164" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1627798173164">
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627802296197" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627798173164" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1627798173164">
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1627802296197" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627798173164" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1627798173164">
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1627802296197" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627798173164" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1627794608916">
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1627802296197" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1627969104041">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627794608916" />
-    <state x="340" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1627794643954">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627969104041" />
+    <state x="340" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1627985221427">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="340" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1627794643954" />
+    <state x="340" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1627985221427" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
