@@ -134,6 +134,8 @@ class PaymentOutWindow(QWidget):
         super().__init__(parent)
         uic.loadUi("PaymentOutWindow.ui", self)
         self.setFixedSize(1100, 650)
+
+
 if __name__ == "__main__":
     app = QApplication([])
     window_1 = MainWindow()

@@ -1,6 +1,7 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QWidget, QCompleter
 import MainWindow as mw
+import DatabaseController as dbc
 
 
 class StockWindow(QWidget):
@@ -76,6 +77,30 @@ class AddNewItemWindow(QWidget):
         super().__init__(parent)
         uic.loadUi("AddNewItemWindow.ui", self)
         self.setFixedSize(1000, 900)
+
+        self.saveButton.clicked.connect(self.insertProduct_AddNewItemWindow)
+
+    def insertProduct_AddNewItemWindow(self):
+        conn = dbc.getConnection()
+        productId = self.productId.text
+        productName = self.productName.text()
+        productType = str(self.productType.currentText())
+        productCategory = str(self.productCategory.currentText())
+        productQuantity = self.productQuantity.text()
+        productUnit = self.productUnit.text()
+        productRetailPrice = self.productRetailPrice.text()
+        productWholeSalePrice = self.productWholeSalePrice.text()
+        productPurchasePrice = self.productPurchasePrice.text()
+        productTransportPrice = self.productTransportPrice.text()
+        productGSTRate = self.productGSTRate.text()
+        productLowWarningLimit = self.productLowWarningLimit.text()
+
+        conn.execute(f"INSERT INTO stock \
+        VALUES ({productId},{productName},{productType},{productCategory},{productQuantity},{productUnit} \
+        ,{productRetailPrice},{productWholeSalePrice},{productPurchasePrice},{productTransportPrice} \
+        ,{productGSTRate},{productLowWarningLimit})")
+
+        conn.close()
 
 
 class EditItemWindow(QWidget):
