@@ -1,4 +1,5 @@
 from PyQt5 import uic
+from PyQt5.QtGui import QIntValidator, QDoubleValidator, QValidator
 from PyQt5.QtWidgets import QWidget, QCompleter
 import MainWindow as mw
 import DatabaseController as dbc
@@ -77,30 +78,99 @@ class AddNewItemWindow(QWidget):
         super().__init__(parent)
         uic.loadUi("AddNewItemWindow.ui", self)
         self.setFixedSize(1000, 900)
-
         self.saveButton.clicked.connect(self.insertProduct_AddNewItemWindow)
 
+        self.productId.editingFinished.connect(self.validating)
+        self.productQuantity.editingFinished.connect(self.validating)
+        self.productUnit.editingFinished.connect(self.validating)
+        self.productRetailPrice.editingFinished.connect(self.validating)
+        self.productWholeSalePrice.editingFinished.connect(self.validating)
+        self.productPurchasePrice.editingFinished.connect(self.validating)
+        self.productTransportPrice.editingFinished.connect(self.validating)
+        self.productGSTRate.editingFinished.connect(self.validating)
+        self.productLowWarningLimit.editingFinished.connect(self.validating)
+
+    def validating(self):
+
+        if self.productId.text().isnumeric():
+            pass
+        else:
+            self.productId.setText('')
+
+        if self.productQuantity.text().isnumeric():
+            pass
+        else:
+            self.productQuantity.setText('')
+
+        if self.productUnit.text().isnumeric():
+            pass
+        else:
+            self.productUnit.setText('')
+
+        if self.productPurchasePrice.text().isnumeric():
+            pass
+        else:
+            self.productPurchasePrice.setText('')
+
+        if self.productRetailPrice.text().isnumeric():
+            pass
+        else:
+            self.productRetailPrice.setText('')
+
+        if self.productWholeSalePrice.text().isnumeric():
+            pass
+        else:
+            self.productWholeSalePrice.setText('')
+
+        if self.productTransportPrice.text().isnumeric():
+            pass
+        else:
+            self.productTransportPrice.setText('')
+
+        if self.productLowWarningLimit.text().isnumeric():
+            pass
+        else:
+            self.productLowWarningLimit.setText('')
+
+        if self.productGSTRate.text().isnumeric():
+            pass
+        else:
+            self.productGSTRate.setText('')
+
     def insertProduct_AddNewItemWindow(self):
+
         conn = dbc.getConnection()
-        productId = self.productId.text
-        productName = self.productName.text()
-        productType = str(self.productType.currentText())
-        productCategory = str(self.productCategory.currentText())
-        productQuantity = self.productQuantity.text()
-        productUnit = self.productUnit.text()
-        productRetailPrice = self.productRetailPrice.text()
-        productWholeSalePrice = self.productWholeSalePrice.text()
-        productPurchasePrice = self.productPurchasePrice.text()
-        productTransportPrice = self.productTransportPrice.text()
-        productGSTRate = self.productGSTRate.text()
-        productLowWarningLimit = self.productLowWarningLimit.text()
+        cursor = conn.cursor()
 
-        conn.execute(f"INSERT INTO stock \
-        VALUES ({productId},{productName},{productType},{productCategory},{productQuantity},{productUnit} \
-        ,{productRetailPrice},{productWholeSalePrice},{productPurchasePrice},{productTransportPrice} \
-        ,{productGSTRate},{productLowWarningLimit})")
+        try:
+            _productId = int(self.productId.text())
+            _productName = self.productName.text()
+            _productType = "abc"  # str(self.productType.currentText())
+            _productCategory = "def"  # str(self.productCategory.currentText())
+            _productQuantity = int(self.productQuantity.text())
+            _productUnit = int(self.productUnit.text())
+            _productRetailPrice = int(self.productRetailPrice.text())
+            _productWholeSalePrice = int(self.productWholeSalePrice.text())
+            _productPurchasePrice = int(self.productPurchasePrice.text())
+            _productTransportPrice = int(self.productTransportPrice.text())
+            _productGSTRate = int(self.productGSTRate.text())
+            _productLowWarningLimit = int(self.productLowWarningLimit.text())
+            _productDetails = self.productDetail.toPlainText()
+        except Exception as e:
+            pass
 
-        conn.close()
+        print("preparing to execute")
+        try:
+            cursor.execute("insert into stock values(?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (_productId, _productName, _productType,
+                            _productCategory, _productQuantity, _productUnit, _productRetailPrice,
+                            _productWholeSalePrice,
+                            _productPurchasePrice, _productTransportPrice, _productGSTRate, _productDetails,
+                            _productLowWarningLimit))
+            conn.commit()
+            print("Inserted")
+        except Exception as e:
+            print(e)
 
 
 class EditItemWindow(QWidget):

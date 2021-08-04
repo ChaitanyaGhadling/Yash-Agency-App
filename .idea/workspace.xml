@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e8b2f054-1851-4d0c-9a3e-b2aceffeae0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddClientWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddClientWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddExpenseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddExpenseWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddNewItemWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddNewItemWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddSupplierWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddSupplierWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DefectiveItemsWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DefectiveItemsWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditItemWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/EditItemWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvoiceWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/InvoiceWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewCategoryWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewCategoryWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewPurchaseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewPurchaseWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewTypeWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewTypeWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentInWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentInWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PaymentOutWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PaymentOutWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PurchaseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuotationWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/QuotationWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SalesWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/SalesWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SetReminderWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/SetReminderWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StockWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/StockWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practiceqt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -91,30 +72,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="374" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628054071578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="374" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1628054071578" />
     <state x="389" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1627968027321">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="197" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1627968027321" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1620554753733">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1628054012080">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1620554753733" />
-    <state width="1259" height="124" key="GridCell.Tab.0.bottom" timestamp="1627968232587">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628054012080" />
+    <state width="1281" height="129" key="GridCell.Tab.0.bottom" timestamp="1628062252749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
-    <state width="1259" height="124" key="GridCell.Tab.0.center" timestamp="1627968232587">
+    <state width="1281" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628062252749" />
+    <state width="1281" height="129" key="GridCell.Tab.0.center" timestamp="1628062252749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
-    <state width="1259" height="124" key="GridCell.Tab.0.left" timestamp="1627968232587">
+    <state width="1281" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628062252749" />
+    <state width="1281" height="129" key="GridCell.Tab.0.left" timestamp="1628062252749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
-    <state width="1259" height="124" key="GridCell.Tab.0.right" timestamp="1627968232587">
+    <state width="1281" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628062252749" />
+    <state width="1281" height="129" key="GridCell.Tab.0.right" timestamp="1628062252749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="124" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627968232587" />
+    <state width="1281" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628062252749" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -135,10 +120,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627969104041" />
-    <state x="340" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1627985221427">
+    <state x="340" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1628053819706">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="340" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1627985221427" />
+    <state x="340" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1628053819706" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1628061535298">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1628061535298" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
