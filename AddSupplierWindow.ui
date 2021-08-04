@@ -29,7 +29,7 @@
     <enum>Qt::Vertical</enum>
    </property>
   </widget>
-  <widget class="QLineEdit" name="state_Edit">
+  <widget class="QLineEdit" name="state">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -92,7 +92,7 @@
     <string>Company Name</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="companyName_Edit">
+  <widget class="QLineEdit" name="companyName">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -102,7 +102,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="email_Edit">
+  <widget class="QLineEdit" name="email">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -207,7 +207,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="city_Edit">
+  <widget class="QLineEdit" name="city">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -238,7 +238,7 @@
     <string>Address</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="pin_Edit">
+  <widget class="QLineEdit" name="pin">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -348,7 +348,7 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QLineEdit" name="contactNo_Edit">
+  <widget class="QLineEdit" name="contactNo">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -393,7 +393,7 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QTextEdit" name="address_Edit">
+  <widget class="QTextEdit" name="address">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -422,7 +422,7 @@
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QLineEdit" name="contactPerson_Edit">
+  <widget class="QLineEdit" name="contactPerson">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -575,7 +575,7 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QLineEdit" name="bankName_Edit">
+  <widget class="QLineEdit" name="bankName">
    <property name="geometry">
     <rect>
      <x>810</x>
@@ -585,7 +585,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="accountNo_Edit">
+  <widget class="QLineEdit" name="accountNo">
    <property name="geometry">
     <rect>
      <x>810</x>
@@ -595,7 +595,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="ifsc_Edit">
+  <widget class="QLineEdit" name="ifsc">
    <property name="geometry">
     <rect>
      <x>810</x>
@@ -689,7 +689,7 @@
     <string>GSTIN</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="pan_Edit">
+  <widget class="QLineEdit" name="panNo">
    <property name="geometry">
     <rect>
      <x>810</x>
@@ -773,7 +773,7 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QLineEdit" name="gstin_Edit">
+  <widget class="QLineEdit" name="gstin">
    <property name="geometry">
     <rect>
      <x>810</x>
@@ -815,7 +815,7 @@
     <enum>Qt::Horizontal</enum>
    </property>
   </widget>
-  <widget class="QLineEdit" name="state_Edit_2">
+  <widget class="QLineEdit" name="taxState">
    <property name="geometry">
     <rect>
      <x>810</x>

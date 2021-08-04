@@ -1,6 +1,8 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QWidget, QCompleter
 import MainWindow as mw
+import StockWindow as stw
+import DatabaseController as dbc
 
 class PurchaseWindow(QWidget):
     def __init__(self, parent=None):
@@ -43,6 +45,13 @@ class NewPurchaseWindow(QWidget):
         self.setFixedSize(1900, 980)
         self.homeButton.clicked.connect(self.goHome)
         self.backButton.clicked.connect(self.goBack)
+        self.addItemButton.clicked.connect(self.goToAddNewItem)
+
+    def addNewPurchase(self):
+        conn = dbc.getConnection()
+        cursor = conn.cursor()
+
+
 
     def goHome(self):
         self.cw = mw.MainWindow()
@@ -53,6 +62,10 @@ class NewPurchaseWindow(QWidget):
         self.cw = PurchaseWindow()
         self.cw.show()
         self.close()
+
+    def goToAddNewItem(self):
+        self.cw = stw.AddNewItemWindow()
+        self.cw.show()
 
 class TransportWindow(QWidget):
     def __init__(self, parent=None):

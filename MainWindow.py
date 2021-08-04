@@ -1,6 +1,7 @@
 from PyQt5.QtCore import QDate, QTime, QTimer
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+import DatabaseController as dbc
 
 import SalesWindow as sw
 import PurchaseWindow as pw
@@ -99,6 +100,52 @@ class AddClientWindow(QWidget):
         super().__init__(parent)
         uic.loadUi("AddClientWindow.ui", self)
         self.setFixedSize(1000, 900)
+        self.saveButton.clicked.connect(self.saveClient)
+        self.contactNo.editingFinished.connect(self.validating)
+        self.pin.editingFinished.connect(self.validating)
+
+    def saveClient(self):
+        conn = dbc.getConnection()
+        cursor = conn.cursor()
+        try:
+            _fullName = self.fullName.text()
+            _bAddress = self.bAddress.toPlainText()
+            _city = self.city.text()
+            _state = self.state.text()
+            _pin = self.pin.text()
+            _contactNo = self.contactNo.text()
+            _panNo = self.panNo.text()
+            _gstin = self.gstin.text()
+            if _pin is None:
+                pass
+            else:
+                _pin = int(_pin)
+
+            if _contactNo is None:
+                pass
+            else:
+                _contactNo = int(_contactNo)
+
+        except Exception as e:
+            print(e)
+
+        try:
+            cursor.execute("insert into client_info values(?,?,?,?,?,?,?,?)",
+                           (_fullName, _bAddress, _city, _state, _pin, _contactNo, _panNo, _gstin))
+            conn.commit()
+        except Exception as e:
+            print(e)
+
+    def validating(self):
+        if self.contactNo.text().isnumeric():
+            pass
+        else:
+            self.contactNo.setText("")
+
+        if self.pin.text().isnumeric():
+            pass
+        else:
+            self.pin.setText("")
 
 
 class AddSupplierWindow(QWidget):
@@ -106,6 +153,60 @@ class AddSupplierWindow(QWidget):
         super().__init__(parent)
         uic.loadUi("AddSupplierWindow.ui", self)
         self.setFixedSize(1200, 900)
+        self.saveButton.clicked.connect(self.saveSupplier)
+
+        self.contactNo.editingFinished.connect(self.validating)
+        self.pin.editingFinished.connect(self.validating)
+
+    def saveSupplier(self):
+        conn = dbc.getConnection()
+        cursor = conn.cursor()
+        try:
+            _companyName = self.companyName.text()
+            _address = self.address.toPlainText()
+            _city = self.city.text()
+            _state = self.state.text()
+            _contactPerson = self.contactPerson.text()
+            _email = self.email.text()
+            _bankName = self.bankName.text()
+            _accountNo = self.accountNo.text()
+            _ifsc = self.ifsc.text()
+            _panNo = self.panNo.text()
+            _gstin = self.gstin.text()
+            _taxState = self.taxState.text()
+            _pin = self.pin.text()
+            _contactNo = self.contactNo.text()
+            if _pin is None:
+                pass
+            else:
+                _pin = int(_pin)
+
+            if _contactNo is None:
+                pass
+            else:
+                _contactNo = int(_contactNo)
+        except Exception as e:
+            print(e)
+
+        try:
+            cursor.execute("insert into supplier_info values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                           (_companyName, _address, _city, _state, _pin, _contactNo, _contactPerson, _email, _bankName,
+                            _accountNo, _ifsc, _panNo, _gstin, _taxState))
+            conn.commit()
+
+        except Exception as e:
+            print(e)
+
+    def validating(self):
+        if self.contactNo.text().isnumeric():
+            pass
+        else:
+            self.contactNo.setText("")
+
+        if self.pin.text().isnumeric():
+            pass
+        else:
+            self.pin.setText("")
 
 
 class AddExpenseWindow(QWidget):

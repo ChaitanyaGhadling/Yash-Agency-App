@@ -159,7 +159,6 @@ class AddNewItemWindow(QWidget):
         except Exception as e:
             pass
 
-        print("preparing to execute")
         try:
             cursor.execute("insert into stock values(?,?,?,?,?,?,?,?,?,?,?,?,?)",
                            (_productId, _productName, _productType,
@@ -168,7 +167,6 @@ class AddNewItemWindow(QWidget):
                             _productPurchasePrice, _productTransportPrice, _productGSTRate, _productDetails,
                             _productLowWarningLimit))
             conn.commit()
-            print("Inserted")
         except Exception as e:
             print(e)
 

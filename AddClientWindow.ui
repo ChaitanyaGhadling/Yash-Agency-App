@@ -320,7 +320,7 @@
     <string>GSTIN</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="address_Edit">
+  <widget class="QTextEdit" name="bAddress">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -330,7 +330,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="fullName_Edit">
+  <widget class="QLineEdit" name="fullName">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -340,7 +340,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="city_Edit">
+  <widget class="QLineEdit" name="city">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -350,7 +350,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="state_Edit">
+  <widget class="QLineEdit" name="state">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -360,7 +360,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="pin_Edit">
+  <widget class="QLineEdit" name="pin">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -370,7 +370,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="contactNo_Edit">
+  <widget class="QLineEdit" name="contactNo">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -380,7 +380,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="Pan_Edit">
+  <widget class="QLineEdit" name="panNo">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -390,7 +390,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QLineEdit" name="Gst_Edit">
+  <widget class="QLineEdit" name="gstin">
    <property name="geometry">
     <rect>
      <x>300</x>
