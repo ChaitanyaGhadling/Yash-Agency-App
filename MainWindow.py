@@ -136,6 +136,8 @@ class AddClientWindow(QWidget):
         except Exception as e:
             print(e)
 
+        self.close()
+
     def validating(self):
         if self.contactNo.text().isnumeric():
             pass
@@ -196,6 +198,8 @@ class AddSupplierWindow(QWidget):
 
         except Exception as e:
             print(e)
+
+        self.close()
 
     def validating(self):
         if self.contactNo.text().isnumeric():

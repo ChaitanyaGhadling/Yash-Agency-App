@@ -262,7 +262,7 @@ class AddNewItemWindow(QWidget):
             _productTransportPrice = int(self.productTransportPrice.text())
             _productGSTRate = int(self.productGSTRate.text())
             _productLowWarningLimit = int(self.productLowWarningLimit.text())
-            _productDetails = self.productDetail.toPlainText()
+            _productDetails = self.productDetails.toPlainText()
         except Exception as e:
             pass
 
@@ -299,6 +299,19 @@ class EditItemWindow(QWidget):
         self.productLowWarningLimit.editingFinished.connect(self.validating)
         self.initComboBox()
         self.saveButton.clicked.connect(self.updateProduct_EditItemWindow)
+        item_list = []
+        try:
+            conn = dbc.getConnection()
+            cursor = conn.cursor()
+            cursor.execute("select name from stock")
+            items = cursor.fetchall()
+            for item in items:
+                item_list.append(item[0])
+            conn.close()
+        except Exception as e:
+            print(e)
+        completer = QCompleter(item_list)
+        self.searchbar.setCompleter(completer)
 
     def validating(self):
 
@@ -365,7 +378,7 @@ class EditItemWindow(QWidget):
             _productTransportPrice = int(self.productTransportPrice.text())
             _productGSTRate = int(self.productGSTRate.text())
             _productLowWarningLimit = int(self.productLowWarningLimit.text())
-            _productDetails = self.productDetail.toPlainText()
+            _productDetails = self.productDetails.toPlainText()
         except Exception as e:
             print(e)
 
@@ -391,12 +404,12 @@ class EditItemWindow(QWidget):
             cursor.execute("select * from type")
             for row in cursor:
                 typeList.append(row[0])
-            self.TypeBox.addItems(typeList)
+            self.productType.addItems(typeList)
 
             cursor.execute("select * from category")
             for row in cursor:
                 categoryList.append(row[0])
-            self.categoryBox.addItems(categoryList)
+            self.productCategory.addItems(categoryList)
             conn.close()
         except Exception as e:
             print(e)
@@ -409,19 +422,19 @@ class EditItemWindow(QWidget):
             cursor.execute("select * from stock where name =" +
                            "\"" + _searchItem + "\"")
             row = cursor.fetchone()
-            self.productName_Edit.setText(f"{row[1]}")
-            self.ProductID_Edit.setText(f"{row[0]}")
-            self.categoryBox.setCurrentText(f"{row[3]}")
-            self.TypeBox.setCurrentText(f"{row[2]}")
-            self.PurchasePrice_Edit.setText(f"{row[8]}")
-            self.TransportPrice_Edit.setText(f"{row[9]}")
-            self.GST_Edit.setText(f"{row[10]}")
-            self.spinBox.setValue(row[4])
-            self.Quantity_Edit.setText(f"{row[5]}")
-            self.LowQuantity_Edit.setText(f"{row[12]}")
-            self.textEdit.setText(f"{row[11]}")
-            self.WPrice_Edit.setText(f"{row[7]}")
-            self.RPrice_Edit.setText(f"{row[6]}")
+            self.productName.setText(f"{row[1]}")
+            self.productId.setText(f"{row[0]}")
+            self.productCategory.setCurrentText(f"{row[3]}")
+            self.productType.setCurrentText(f"{row[2]}")
+            self.productPurchasePrice.setText(f"{row[8]}")
+            self.productTransportPrice.setText(f"{row[9]}")
+            self.productGSTRate.setText(f"{row[10]}")
+            self.productUnit.setValue(row[4])
+            self.productQuantity.setText(f"{row[5]}")
+            self.productLowWarningLimit.setText(f"{row[12]}")
+            self.productDetails.setText(f"{row[11]}")
+            self.productWholeSalePrice.setText(f"{row[7]}")
+            self.productRetailPrice.setText(f"{row[6]}")
 
             conn.close()
         except Exception as e:

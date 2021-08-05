@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b2f054-1851-4d0c-9a3e-b2aceffeae0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Dell.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddClientWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddClientWindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AddSupplierWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/AddSupplierWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditItemWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/EditItemWindow.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewPurchaseWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/NewPurchaseWindow.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PurchaseWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/PurchaseWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StockWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/StockWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
@@ -90,22 +89,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628054012080" />
-    <state width="1281" height="129" key="GridCell.Tab.0.bottom" timestamp="1628082042569">
+    <state width="1259" height="129" key="GridCell.Tab.0.bottom" timestamp="1628161553161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628082042569" />
-    <state width="1281" height="129" key="GridCell.Tab.0.center" timestamp="1628082042569">
+    <state width="1259" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1628161553161" />
+    <state width="1259" height="129" key="GridCell.Tab.0.center" timestamp="1628161553161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628082042569" />
-    <state width="1281" height="129" key="GridCell.Tab.0.left" timestamp="1628082042569">
+    <state width="1259" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1628161553161" />
+    <state width="1259" height="129" key="GridCell.Tab.0.left" timestamp="1628161553161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628082042569" />
-    <state width="1281" height="129" key="GridCell.Tab.0.right" timestamp="1628082042569">
+    <state width="1259" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1628161553161" />
+    <state width="1259" height="129" key="GridCell.Tab.0.right" timestamp="1628161553161">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1281" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628082042569" />
+    <state width="1259" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1628161553161" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1627802296197">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
