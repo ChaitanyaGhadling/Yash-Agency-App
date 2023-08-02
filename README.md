@@ -1,4 +1,7 @@
 # Yash-Agency-App
 
 Personal Project.
-Created a billing app for home shop
+
+Created a inventory management and billing app for home shop.
+
+**Under development**
