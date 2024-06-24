@@ -38,7 +38,7 @@ class SaleInvoice(QWidget):
             conn = dbc.getConnection()
             cursor = conn.cursor()
             cursor.execute("SELECT saleId FROM sales ORDER BY saleId DESC LIMIT 1;")
-            self.saleId = cursor.fetchone()  # Fetch the first column of the first row
+            self.saleId = cursor.fetchone()[0]  # Fetch the first column of the first row
             if not self.saleId:
                 self.saleId = 1
             print(self.saleId)
